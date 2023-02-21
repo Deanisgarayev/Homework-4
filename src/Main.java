@@ -98,7 +98,5 @@ public class Main {
         } else {
             System.out.println("third не самое большое число");
         }
-
-
     }
 }

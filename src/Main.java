@@ -80,23 +80,13 @@ public class Main {
         int one = 1;
         int two = 2;
         int three = 3;
-        boolean first = one > two || one > three;
-        boolean second = two > one || two > three;
-        boolean third = three > one || three > two;
-        if (first) {
+        if (one > two && one > three) {
             System.out.println("one самое бальшое число");
-        } else {
-            System.out.println("one не самое большое число");
         }
-        if (second) {
+        if (two > one && two > three) {
             System.out.println("two самое бальшое число");
         } else {
-            System.out.println("second не самое большое число");
-        }
-        if (third) {
-            System.out.println("three самое бальшое число");
-        } else {
-            System.out.println("third не самое большое число");
+            System.out.println("three самое большое число");
         }
     }
 }

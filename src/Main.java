@@ -18,6 +18,7 @@ public class Main {
             System.out.println("Он несовершеннолетний");
         }
     }
+
     public static void task2 () {
         System.out.println("Задача 2");
         int temperature = -20;
@@ -27,6 +28,7 @@ public class Main {
             System.out.println("Сегодня тепло, можно идти без шапки");
         }
     }
+
     public static void task3 () {
             System.out.println("Задача 3");
             int speed = 61;
@@ -36,6 +38,7 @@ public class Main {
                 System.out.println("можно ездить спокойно");
             }
     }
+
     public static void task4 () {
         System.out.println("Задача 4");
         int age = 22;
@@ -51,6 +54,7 @@ public class Main {
             System.out.println("Ему пора ходить на работу");
         }
     }
+
     public static void task5 () {
         System.out.println("Задача 5");
         int age = 28 ;
@@ -63,6 +67,7 @@ public class Main {
             System.out.println("Он может кататься без сопровождения взрослого");
         }
     }
+
     public static void task6 () {
         System.out.println("Задача 6");
         int seat = 89;
@@ -75,6 +80,7 @@ public class Main {
             System.out.println("Вагон уже полностью забит");
         }
     }
+
     public static void task7 () {
         System.out.println("Задача 7");
         int one = 1;
